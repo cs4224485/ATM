@@ -1,0 +1,81 @@
+程序介绍：
+   模拟ATM，实现用户认证后多账户进行转账，提现，交易，还款等功能。
+
+ATM
+├── account                 账号信息
+│   ├── account_manage.py   对账号信息进行存储和加载
+│   ├── admindb             管理员账户存储位置
+│   │   └── root
+│   ├
+│   ├
+│   │  
+│   │  
+│   └── userdb              普通用户账号存储位置
+│       ├── 1041082679.json
+│       └── 6335501425.json
+├── bin                     程序执行文件
+│   ├── admin.py            管理员接口
+│   ├── init_admin.py       初始化管理员账号
+│   ├── __init__.py
+│   └── users.py            普通用户接口
+├── config                  配置文件
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-36.pyc
+│   │   └── setting.cpython-36.pyc      配置文件
+│   └── setting.py
+├── core
+│   ├── admin.py                        管理核心模块
+│   ├── authentication.py               认证模块
+│   ├── initialization.py               初始化
+│   ├── __init__.py
+│   ├── main.py                         用户主模块
+│   ├
+│   └── transaction.py                  交易模块
+├── __init__.py
+├── log                                 日志功能
+│   ├── __init__.py
+│   ├── logdb                           日志存储位置
+│   │   ├── access_log.txt
+│   │   └── transaction_log.txt
+│   ├── logger.py                       建立日志对象模块
+│   └── __pycache__
+│  
+├
+│  
+├
+└── shopping                           购物功能
+    ├── bin
+    │   ├── admin.py                   管理员接口
+    │   ├── __init__.py
+    │   └── shopping_car.py            购物车
+    ├── core
+    │   ├── admin.py
+    │   ├── auth.py                     认证模块
+    │   ├── __init__.py
+    │   ├── main.py                     主逻辑模块
+    │   └── __pycache__
+    │  
+    │  
+    │  
+    │  
+    ├── goods_db                       商品信息存储数据库
+    │   ├── goods.json
+    │   ├── goods_manage.py
+    │   ├── __init__.py
+    │   └── __pycache__
+    │  
+    │  
+    ├── __init__.py
+    ├── __pycache__
+    │   └── __init__.cpython-36.pyc
+    ├── setting                       配置文件
+    │   ├── config.py
+    │   ├── __init__.py
+    │   └── __pycache__
+    │       ├── config.cpython-36.pyc
+    │       └── __init__.cpython-36.pyc
+    └── user_db
+        ├── account.py
+        ├── harry
+
